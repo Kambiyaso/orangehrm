@@ -2996,14 +2996,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "axios@npm:1.2.2"
+"axios@npm:^1.7.8":
+  version: 1.7.9
+  resolution: "axios@npm:1.7.9"
   dependencies:
-    follow-redirects: ^1.15.0
+    follow-redirects: ^1.15.6
     form-data: ^4.0.0
     proxy-from-env: ^1.1.0
-  checksum: 6e357491b38426c5720f7328ecbafca3c643b03952c052d787570672ce7a9365717c2d64db4ce97cfbee3f830fa405101e360e14d0857ef7f96a9f4d814c4e03
+  checksum: cb8ce291818effda09240cb60f114d5625909b345e10f389a945320e06acf0bc949d0f8422d25720f5dd421362abee302c99f5e97edec4c156c8939814b23d19
   languageName: node
   linkType: hard
 
@@ -4865,13 +4865,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.15.0":
+"follow-redirects@npm:^1.0.0":
   version: 1.15.2
   resolution: "follow-redirects@npm:1.15.2"
   peerDependenciesMeta:
     debug:
       optional: true
   checksum: faa66059b66358ba65c234c2f2a37fcec029dc22775f35d9ad6abac56003268baf41e55f9ee645957b32c7d9f62baf1f0b906e68267276f54ec4b4c597c2b190
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:^1.15.6":
+  version: 1.15.9
+  resolution: "follow-redirects@npm:1.15.9"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: 859e2bacc7a54506f2bf9aacb10d165df78c8c1b0ceb8023f966621b233717dab56e8d08baadc3ad3b9db58af290413d585c999694b7c146aaf2616340c3d2a6
   languageName: node
   linkType: hard
 
@@ -4985,7 +4995,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -6823,7 +6833,7 @@ __metadata:
     "@vue/cli-plugin-typescript": ~5.0.8
     "@vue/cli-service": ~5.0.8
     "@vue/eslint-config-typescript": ^9.1.0
-    axios: ^1.2.2
+    axios: ^1.7.8
     core-js: ^3.27.1
     eslint: ^7.32.0
     eslint-config-prettier: ^8.3.0
@@ -7806,7 +7816,7 @@ __metadata:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>":
   version: 1.22.1
-  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.22.1#~builtin<compat/resolve>::version=1.22.1&hash=07638b"
   dependencies:
     is-core-module: ^2.9.0
     path-parse: ^1.0.7
@@ -8792,7 +8802,7 @@ __metadata:
 
 "typescript@patch:typescript@~4.5.5#~builtin<compat/typescript>":
   version: 4.5.5
-  resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=bcec9a"
+  resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=701156"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
